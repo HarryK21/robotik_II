@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: create3_examples_py
+Version: 0.0.5
+Summary: Example ROS 2 Python code to use iRobot® Create® 3
+Maintainer: jkearns
+Maintainer-email: jkearns@irobot.com
+License: BSD-3
+Requires-Dist: setuptools

@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-44b836adc103b3d1eecd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "create3_examples_msgs__py",
+					"jsonFile" : "directory-create3_examples_msgs__py-9db2dd4e429b95912d4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rss/robot_ws/build/create3_examples_msgs/create3_examples_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "create3_examples_msgs__rs",
+					"jsonFile" : "directory-create3_examples_msgs__rs-210ffaa792e02e09413f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rss/robot_ws/build/create3_examples_msgs/create3_examples_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "create3_examples_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_create3_examples_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_create3_examples_msgs_egg-decc7fc713b673ec1ed8.json",
+					"name" : "ament_cmake_python_build_create3_examples_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_create3_examples_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_create3_examples_msgs-5d39b1473f6ac53ea96f.json",
+					"name" : "ament_cmake_python_copy_create3_examples_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs-8f328e71fddca8bcf1e4.json",
+					"name" : "create3_examples_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__cpp-74198dbb9f6e200fd806.json",
+					"name" : "create3_examples_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "create3_examples_msgs__py::@bf8df82f677f6c1225ab",
+					"jsonFile" : "target-create3_examples_msgs__py-bc572e17f9a7509a625b.json",
+					"name" : "create3_examples_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_generator_c-8c86f81ffa665168ac1d.json",
+					"name" : "create3_examples_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_generator_py-dc7217c500bdb767f6b5.json",
+					"name" : "create3_examples_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_c-733fb3916916aee2714c.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_c__pyext-357443c739ec322b5255.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_cpp-6b279788bc26e083245e.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_fastrtps_c-b645fb16564f4ec19800.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext-d1a057658a81ddd0ba00.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_fastrtps_cpp-69d28f6a4dc2a5b129ae.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_introspection_c-689dd73ed9766b44046a.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_introspection_c__pyext-8be0390b2730071f6de2.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs__rosidl_typesupport_introspection_cpp-dfdfc38154a2e3162ccb.json",
+					"name" : "create3_examples_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "create3_examples_msgs__rs::@da6f47e9f806757e7dea",
+					"jsonFile" : "target-create3_examples_msgs__rs-a965213a64e1361fd0c5.json",
+					"name" : "create3_examples_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_examples_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_examples_msgs_uninstall-51ec5eb4942e99216814.json",
+					"name" : "create3_examples_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-190403affa99c140aa35.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rss/robot_ws/build/create3_examples_msgs",
+		"source" : "/home/rss/robot_ws/src/create3_examples/create3_examples_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

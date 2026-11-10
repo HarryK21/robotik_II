@@ -1,0 +1,8 @@
+launch:
+
+- include:
+    file: "$(find-pkg-share python_package)/launch/turtle.launch.yaml"
+
+- include:
+    file: "$(find-pkg-share python_package)/launch/turtle2.launch.yaml"
+

@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/rss/robot_ws/src/rplidar-ros",
+    "cmake.autoDetectSourceDirectory": false
+}

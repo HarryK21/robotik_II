@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: create3_teleop
+Version: 0.0.5
+Summary: Example launch files for teleoperating the iRobot(R) Create(R) 3 Educational Robot.
+Maintainer: Alberto Soragna
+Maintainer-email: asoragna@irobot.com
+License: BSD-3
+Requires-Dist: setuptools

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: teleop
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: rss
+Maintainer-email: hk4952s@ad.fh-aachen.de
+License: TODO: License declaration
+Requires-Dist: setuptools

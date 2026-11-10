@@ -1,0 +1,3 @@
+[console_scripts]
+emptynode = python_package.first_node:main
+param_node = python_package.param_node:main

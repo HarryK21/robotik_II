@@ -1,0 +1,78 @@
+Useful commands
+
+Always build from outside the workspace (robot_ws)
+
+# ros2 pkg prefix <package_name>
+
+
+
+**Install a binary package (not necessary for turtlesim if already installed):**
+
+sudo apt install ros-$ROS_DISTRO-turtlesim
+# sudo apt install ros-<distribution>-<package_name>
+
+
+cd ~/robot_ws/src
+git clone -b $ROS_DISTRO https://github.com/ros/ros_tutorials.git
+# git clone -b <branch> <address>
+
+
+echo $AMENT_PREFIX_PATH
+
+**Create ROS 2 Packages**
+ros2 pkg create --build-type ament_cmake test_package --dependencies rclpy
+# ros2 pkg create --build-type <build_type> <package_name> [optional: --dependencies <pkg_names>]
+ros2 pkg create --build-type ament_python my_first_package --dependencies rclpy test_package
+
+**Writing in a file**
+echo "source ~/robot_ws/install/setup.bash" >> ~/.bashrc
+
+*Launching a file
+ros2 launch my_first_package turtle.launch.yaml
+
+**Basic launch file**
+launch:
+
+ - node:
+     pkg: "turtlesim"
+     exec: "turtlesim_node"
+     name: "sim"
+
+ - node:
+     pkg: "turtlesim"
+     exec: "draw_square"
+     name: "draw"
+     namespace: "my_turtle"
+
+** Launch file** Calling multiple launch files
+launch:
+
+- include:
+    file: "$(find-pkg-share my_first_package)/launch/turtle.launch.yaml"
+
+- include:
+    file: "$(find-pkg-share my_first_package)/launch/turtle2.launch.yaml"
+    
+    
+**Building on particular package**
+colcon build --packages-select my_first_package
+# colcon build --packages-select <package_name>
+
+**Parameter creation within python script**
+def main():
+    rclpy.init()
+    node = rclpy.create_node('firstnode')
+    node.declare_parameter('my_param', 13)
+# <nodename>.declare_parameter('<parameter_name>', <parameter_default_value>)
+
+TF: Static transformation (in launch file) 
+Arguments: x y z qx qy qz qw parent_frame child_frame 
+
+
+Teleop with gamepad: 
+-> Start the jooy node on the PC: ros2 run joy joy_node
+-> Robot_bringup
+
+Camera calibration :
+ros2 run usb_cam usb_cam_node_exe
+Topic : /camera_info

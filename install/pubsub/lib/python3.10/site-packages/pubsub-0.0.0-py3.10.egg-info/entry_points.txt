@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_node = pubsub.publisher:main
+subscriber_node = pubsub.sub:main
+subscriber_node2 = pubsub.sub2:main
