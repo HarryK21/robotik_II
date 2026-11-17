@@ -1,0 +1,31 @@
+[3.524s] Invoking command in '/home/rss/robot_ws/src/teleop': PYTHONPATH=/home/rss/robot_ws/build/teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop build --build-base /home/rss/robot_ws/build/teleop/build install --record /home/rss/robot_ws/build/teleop/install.log --install-scripts $base/lib/teleop --single-version-externally-managed install_data
+[4.539s] running egg_info
+[4.539s] creating ../../build/teleop/teleop.egg-info
+[4.590s] writing ../../build/teleop/teleop.egg-info/PKG-INFO
+[4.590s] writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt
+[4.595s] writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt
+[4.595s] writing requirements to ../../build/teleop/teleop.egg-info/requires.txt
+[4.595s] writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt
+[4.595s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.706s] reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.710s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[4.711s] running build
+[4.711s] running build_py
+[4.711s] creating /home/rss/robot_ws/build/teleop/build
+[4.712s] creating /home/rss/robot_ws/build/teleop/build/lib
+[4.712s] creating /home/rss/robot_ws/build/teleop/build/lib/teleop
+[4.712s] copying teleop/teleop.py -> /home/rss/robot_ws/build/teleop/build/lib/teleop
+[4.713s] copying teleop/__init__.py -> /home/rss/robot_ws/build/teleop/build/lib/teleop
+[4.714s] running install
+[4.732s] running install_lib
+[4.781s] running install_data
+[4.781s] copying resource/teleop -> /home/rss/robot_ws/install/teleop/share/ament_index/resource_index/packages
+[4.781s] copying package.xml -> /home/rss/robot_ws/install/teleop/share/teleop
+[4.782s] copying launch/teleop.launch.py -> /home/rss/robot_ws/install/teleop/share/teleop/launch
+[4.785s] running install_egg_info
+[4.834s] removing '/home/rss/robot_ws/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[4.834s] Copying ../../build/teleop/teleop.egg-info to /home/rss/robot_ws/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info
+[4.840s] running install_scripts
+[5.271s] Installing teleop_node script to /home/rss/robot_ws/install/teleop/lib/teleop
+[5.271s] writing list of installed files to '/home/rss/robot_ws/build/teleop/install.log'
+[5.348s] Invoked command in '/home/rss/robot_ws/src/teleop' returned '0': PYTHONPATH=/home/rss/robot_ws/build/teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop build --build-base /home/rss/robot_ws/build/teleop/build install --record /home/rss/robot_ws/build/teleop/install.log --install-scripts $base/lib/teleop --single-version-externally-managed install_data

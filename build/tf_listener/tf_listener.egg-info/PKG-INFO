@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tf_listener
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: rss
+Maintainer-email: harry.kengne@alumni.fh-aachen.de
+License: TODO: License declaration
+Requires-Dist: setuptools
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"

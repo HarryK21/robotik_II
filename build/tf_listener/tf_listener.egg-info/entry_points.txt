@@ -1,0 +1,4 @@
+[console_scripts]
+charging_driver = tf_listener.charging_station_driver:main
+follower = tf_listener.follower:main
+tf_listener = tf_listener.tf_listener:main
