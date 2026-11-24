@@ -13,13 +13,14 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')),
+        (os.path.join('share', package_name, 'maps'), glob('maps/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='rss',
-    maintainer_email='harry.kengne@alumni.fh-aachen.de',
+    maintainer='harry',
+    maintainer_email='harry@todo.todo',
     description='TODO: Package description',
-    license='TODO: License declaration',
+    license='TODO: License declaration',    
     extras_require={
         'test': [
             'pytest',
