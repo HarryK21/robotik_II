@@ -1,0 +1,45 @@
+[3.482s] Invoking command in '/home/rss/robot_ws/src/pubsub': PYTHONPATH=/home/rss/robot_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/rss/robot_ws/build/pubsub/build install --record /home/rss/robot_ws/build/pubsub/install.log --install-scripts $base/lib/pubsub --single-version-externally-managed install_data
+[4.095s] running egg_info
+[4.095s] creating ../../build/pubsub/pubsub.egg-info
+[4.118s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[4.119s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[4.120s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[4.120s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[4.120s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[4.120s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[4.177s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[4.179s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[4.180s] running build
+[4.180s] running build_py
+[4.180s] creating /home/rss/robot_ws/build/pubsub/build
+[4.180s] creating /home/rss/robot_ws/build/pubsub/build/lib
+[4.180s] creating /home/rss/robot_ws/build/pubsub/build/lib/pubsub
+[4.180s] copying pubsub/sub2.py -> /home/rss/robot_ws/build/pubsub/build/lib/pubsub
+[4.180s] copying pubsub/__init__.py -> /home/rss/robot_ws/build/pubsub/build/lib/pubsub
+[4.180s] copying pubsub/sub.py -> /home/rss/robot_ws/build/pubsub/build/lib/pubsub
+[4.180s] copying pubsub/publisher.py -> /home/rss/robot_ws/build/pubsub/build/lib/pubsub
+[4.181s] running install
+[4.189s] running install_lib
+[4.239s] creating /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[4.239s] copying /home/rss/robot_ws/build/pubsub/build/lib/pubsub/sub2.py -> /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[4.239s] copying /home/rss/robot_ws/build/pubsub/build/lib/pubsub/__init__.py -> /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[4.239s] copying /home/rss/robot_ws/build/pubsub/build/lib/pubsub/sub.py -> /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[4.239s] copying /home/rss/robot_ws/build/pubsub/build/lib/pubsub/publisher.py -> /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[4.239s] byte-compiling /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub/sub2.py to sub2.cpython-310.pyc
+[4.239s] byte-compiling /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub/__init__.py to __init__.cpython-310.pyc
+[4.239s] byte-compiling /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub/sub.py to sub.cpython-310.pyc
+[4.241s] byte-compiling /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub/publisher.py to publisher.cpython-310.pyc
+[4.242s] running install_data
+[4.246s] creating /home/rss/robot_ws/install/pubsub/share/ament_index
+[4.246s] creating /home/rss/robot_ws/install/pubsub/share/ament_index/resource_index
+[4.246s] creating /home/rss/robot_ws/install/pubsub/share/ament_index/resource_index/packages
+[4.246s] copying resource/pubsub -> /home/rss/robot_ws/install/pubsub/share/ament_index/resource_index/packages
+[4.246s] copying package.xml -> /home/rss/robot_ws/install/pubsub/share/pubsub
+[4.246s] running install_egg_info
+[4.291s] Copying ../../build/pubsub/pubsub.egg-info to /home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[4.295s] running install_scripts
+[4.634s] Installing publisher_node script to /home/rss/robot_ws/install/pubsub/lib/pubsub
+[4.636s] Installing subscriber_node script to /home/rss/robot_ws/install/pubsub/lib/pubsub
+[4.636s] Installing subscriber_node2 script to /home/rss/robot_ws/install/pubsub/lib/pubsub
+[4.637s] writing list of installed files to '/home/rss/robot_ws/build/pubsub/install.log'
+[4.682s] Invoked command in '/home/rss/robot_ws/src/pubsub' returned '0': PYTHONPATH=/home/rss/robot_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/rss/robot_ws/build/pubsub/build install --record /home/rss/robot_ws/build/pubsub/install.log --install-scripts $base/lib/pubsub --single-version-externally-managed install_data

@@ -1,27 +1,62 @@
-launch:
+launch:        
 
 - node:
-    pkg: "slam_toolbox"
-    exec: "async_slam_toolbox_node"
-    name: "slam_toolbox"
+    pkg: "nav2_map_server"
+    exec: "map_server"
+    name: "map_server"
     param:
-    # ROS specific parameters
     -
-      name: "odom_frame"
-      value: "odom"
+      name: "yaml_filename"
+      value: "$(find-pkg-share my_robot_slam)/maps/my_map.yaml"
     -
-      name: "map_frame"
-      value: "map"
+      name: "use_sim_time"
+      value: False
+
+- node:
+    pkg: "nav2_amcl"
+    exec: "amcl"
+    name: "amcl"
+    param:
     -
-      name: "base_frame"
+      name: "base_frame_id"
       value: "base_link"
     -
+      name: "odom_frame_id"
+      value: "odom"
+    -
+      name: "global_frame_id"
+      value: "map"
+    -
+      name: "laser_max_range"
+      value: 10.0
+    -
       name: "scan_topic"
-      value: "/scan"
-    # algorithm specific parameters
+      value: "/scan"      
     -
-      name: "mode"
-      value: "mapping" #localization
+      name: "set_initial_pose"
+      value: False
     -
-      name: "enable_interactive_mode"
+      name: "first_map_only"
+      value: False
+    -
+      name: "tf_broadcast"
       value: True
+    -
+      name: "use_sim_time"
+      value: False
+
+
+- node:
+    pkg: "nav2_lifecycle_manager"
+    exec: "lifecycle_manager"
+    name: "lifecycle_manager"
+    param:
+    -
+      name: "node_names"
+      value: ["map_server", "amcl"]
+    -
+      name: "autostart"
+      value: True
+    -
+      name: "use_sim_time"
+      value: False

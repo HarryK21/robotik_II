@@ -2,8 +2,8 @@ Metadata-Version: 2.1
 Name: my_robot_slam
 Version: 0.0.0
 Summary: TODO: Package description
-Maintainer: rss
-Maintainer-email: harry.kengne@alumni.fh-aachen.de
+Maintainer: harry
+Maintainer-email: harry@todo.todo
 License: TODO: License declaration
 Requires-Dist: setuptools
 Provides-Extra: test
