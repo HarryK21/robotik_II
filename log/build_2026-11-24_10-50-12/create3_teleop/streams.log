@@ -1,0 +1,25 @@
+[2.309s] Invoking command in '/home/rss/robot_ws/src/create3_examples/create3_teleop': PYTHONPATH=/home/rss/robot_ws/build/create3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/rss/robot_ws/build/create3_teleop/build install --record /home/rss/robot_ws/build/create3_teleop/install.log --install-scripts $base/lib/create3_teleop --single-version-externally-managed install_data
+[2.783s] running egg_info
+[2.783s] creating ../../../build/create3_teleop/create3_teleop.egg-info
+[2.795s] writing ../../../build/create3_teleop/create3_teleop.egg-info/PKG-INFO
+[2.796s] writing dependency_links to ../../../build/create3_teleop/create3_teleop.egg-info/dependency_links.txt
+[2.796s] writing requirements to ../../../build/create3_teleop/create3_teleop.egg-info/requires.txt
+[2.796s] writing top-level names to ../../../build/create3_teleop/create3_teleop.egg-info/top_level.txt
+[2.796s] writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[2.819s] reading manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[2.820s] writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[2.820s] running build
+[2.820s] running install
+[2.831s] running install_data
+[2.831s] creating /home/rss/robot_ws/install/create3_teleop/share/ament_index
+[2.831s] creating /home/rss/robot_ws/install/create3_teleop/share/ament_index/resource_index
+[2.831s] creating /home/rss/robot_ws/install/create3_teleop/share/ament_index/resource_index/packages
+[2.831s] copying resource/create3_teleop -> /home/rss/robot_ws/install/create3_teleop/share/ament_index/resource_index/packages
+[2.831s] copying package.xml -> /home/rss/robot_ws/install/create3_teleop/share/create3_teleop
+[2.831s] creating /home/rss/robot_ws/install/create3_teleop/share/create3_teleop/launch
+[2.831s] copying launch/teleop_joystick_launch.py -> /home/rss/robot_ws/install/create3_teleop/share/create3_teleop/launch
+[2.831s] running install_egg_info
+[2.876s] Copying ../../../build/create3_teleop/create3_teleop.egg-info to /home/rss/robot_ws/install/create3_teleop/lib/python3.10/site-packages/create3_teleop-0.0.5-py3.10.egg-info
+[2.877s] running install_scripts
+[3.074s] writing list of installed files to '/home/rss/robot_ws/build/create3_teleop/install.log'
+[3.504s] Invoked command in '/home/rss/robot_ws/src/create3_examples/create3_teleop' returned '0': PYTHONPATH=/home/rss/robot_ws/build/create3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/rss/robot_ws/build/create3_teleop/build install --record /home/rss/robot_ws/build/create3_teleop/install.log --install-scripts $base/lib/create3_teleop --single-version-externally-managed install_data

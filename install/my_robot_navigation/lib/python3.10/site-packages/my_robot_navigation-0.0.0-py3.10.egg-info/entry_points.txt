@@ -1,0 +1,2 @@
+[console_scripts]
+random_goals_node = my_robot_navigation.random_goals:main

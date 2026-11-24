@@ -1,0 +1,108 @@
+[0.010s] Invoking command in '/home/rss/robot_ws/build/create3_coverage': CMAKE_PREFIX_PATH=/home/rss/robot_ws/install/create3_examples_msgs:/home/rss/robot_ws/install/turtlesim:/home/rss/robot_ws/install/create3_lidar_slam:/home/rss/robot_ws/install/rplidar_ros:/home/rss/robot_ws/install/create3_republisher:/home/rss/robot_ws/install/create3_coverage:/home/rss/robot_ws/install/my_robot_navigation:/home/rss/robot_ws/install/webcam_bringup:/home/rss/robot_ws/install/tf_listener:/home/rss/robot_ws/install/teleop:/home/rss/robot_ws/install/robot_bringup:/home/rss/robot_ws/install/python_package:/home/rss/robot_ws/install/pubsub:/home/rss/robot_ws/install/my_robot_slam:/home/rss/robot_ws/install/create3_teleop:/home/rss/robot_ws/install/create3_examples_py:/home/rss/robot_ws/install/aruco_opencv_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/rss/robot_ws/install/create3_examples_msgs/lib:/home/rss/robot_ws/install/turtlesim/lib:/home/rss/robot_ws/install/create3_coverage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/rss/robot_ws/src/create3_examples/create3_coverage -DCMAKE_INSTALL_PREFIX=/home/rss/robot_ws/install/create3_coverage
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.636s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.745s] -- Found create3_examples_msgs: 0.0.5 (/home/rss/robot_ws/install/create3_examples_msgs/share/create3_examples_msgs/cmake)
+[0.794s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.801s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.812s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.850s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.916s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.949s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[0.977s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.998s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.050s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.054s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.177s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.224s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.299s] -- Looking for pthread.h
+[1.390s] -- Looking for pthread.h - found
+[1.391s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.480s] -- Found Threads: TRUE  
+[1.515s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.525s] -- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.539s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.540s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.540s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.605s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.700s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.700s] -- Configured cppcheck include dirs: /home/rss/robot_ws/src/create3_examples/create3_coverage/include
+[1.700s] -- Configured cppcheck exclude dirs and/or files: 
+[1.702s] -- Added test 'lint_cmake' to check CMake code style
+[1.704s] -- Added test 'uncrustify' to check C / C++ code style
+[1.705s] -- Configured uncrustify additional arguments: 
+[1.705s] -- Added test 'xmllint' to check XML markup files
+[1.710s] -- Configuring done
+[1.738s] -- Generating done
+[1.748s] -- Build files have been written to: /home/rss/robot_ws/build/create3_coverage
+[1.761s] Invoked command in '/home/rss/robot_ws/build/create3_coverage' returned '0': CMAKE_PREFIX_PATH=/home/rss/robot_ws/install/create3_examples_msgs:/home/rss/robot_ws/install/turtlesim:/home/rss/robot_ws/install/create3_lidar_slam:/home/rss/robot_ws/install/rplidar_ros:/home/rss/robot_ws/install/create3_republisher:/home/rss/robot_ws/install/create3_coverage:/home/rss/robot_ws/install/my_robot_navigation:/home/rss/robot_ws/install/webcam_bringup:/home/rss/robot_ws/install/tf_listener:/home/rss/robot_ws/install/teleop:/home/rss/robot_ws/install/robot_bringup:/home/rss/robot_ws/install/python_package:/home/rss/robot_ws/install/pubsub:/home/rss/robot_ws/install/my_robot_slam:/home/rss/robot_ws/install/create3_teleop:/home/rss/robot_ws/install/create3_examples_py:/home/rss/robot_ws/install/aruco_opencv_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/rss/robot_ws/install/create3_examples_msgs/lib:/home/rss/robot_ws/install/turtlesim/lib:/home/rss/robot_ws/install/create3_coverage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/rss/robot_ws/src/create3_examples/create3_coverage -DCMAKE_INSTALL_PREFIX=/home/rss/robot_ws/install/create3_coverage
+[1.762s] Invoking command in '/home/rss/robot_ws/build/create3_coverage': CMAKE_PREFIX_PATH=/home/rss/robot_ws/install/create3_examples_msgs:/home/rss/robot_ws/install/turtlesim:/home/rss/robot_ws/install/create3_lidar_slam:/home/rss/robot_ws/install/rplidar_ros:/home/rss/robot_ws/install/create3_republisher:/home/rss/robot_ws/install/create3_coverage:/home/rss/robot_ws/install/my_robot_navigation:/home/rss/robot_ws/install/webcam_bringup:/home/rss/robot_ws/install/tf_listener:/home/rss/robot_ws/install/teleop:/home/rss/robot_ws/install/robot_bringup:/home/rss/robot_ws/install/python_package:/home/rss/robot_ws/install/pubsub:/home/rss/robot_ws/install/my_robot_slam:/home/rss/robot_ws/install/create3_teleop:/home/rss/robot_ws/install/create3_examples_py:/home/rss/robot_ws/install/aruco_opencv_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/rss/robot_ws/install/create3_examples_msgs/lib:/home/rss/robot_ws/install/turtlesim/lib:/home/rss/robot_ws/install/create3_coverage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rss/robot_ws/build/create3_coverage -- -j8 -l8
+[1.817s] [  8%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/reflex-behavior.cpp.o[0m
+[1.818s] [ 16%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/dock-behavior.cpp.o[0m
+[1.820s] [ 25%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/drive-straight-behavior.cpp.o[0m
+[1.824s] [ 33%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/undock-behavior.cpp.o[0m
+[1.826s] [ 41%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/rotate-behavior.cpp.o[0m
+[1.826s] [ 50%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/spiral-behavior.cpp.o[0m
+[1.829s] [ 58%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/coverage_state_machine.cpp.o[0m
+[1.829s] [ 66%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/utils.cpp.o[0m
+[3.571s] [ 75%] [32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/create3_coverage_node.cpp.o[0m
+[29.451s] [ 83%] [32m[1mLinking CXX shared library libcreate3_coverage_core.so[0m
+[30.508s] [ 83%] Built target create3_coverage_core
+[30.521s] [ 91%] [32mBuilding CXX object CMakeFiles/create3_coverage.dir/src/main.cpp.o[0m
+[32.620s] [100%] [32m[1mLinking CXX executable create3_coverage[0m
+[32.957s] [100%] Built target create3_coverage
+[32.964s] Invoked command in '/home/rss/robot_ws/build/create3_coverage' returned '0': CMAKE_PREFIX_PATH=/home/rss/robot_ws/install/create3_examples_msgs:/home/rss/robot_ws/install/turtlesim:/home/rss/robot_ws/install/create3_lidar_slam:/home/rss/robot_ws/install/rplidar_ros:/home/rss/robot_ws/install/create3_republisher:/home/rss/robot_ws/install/create3_coverage:/home/rss/robot_ws/install/my_robot_navigation:/home/rss/robot_ws/install/webcam_bringup:/home/rss/robot_ws/install/tf_listener:/home/rss/robot_ws/install/teleop:/home/rss/robot_ws/install/robot_bringup:/home/rss/robot_ws/install/python_package:/home/rss/robot_ws/install/pubsub:/home/rss/robot_ws/install/my_robot_slam:/home/rss/robot_ws/install/create3_teleop:/home/rss/robot_ws/install/create3_examples_py:/home/rss/robot_ws/install/aruco_opencv_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/rss/robot_ws/install/create3_examples_msgs/lib:/home/rss/robot_ws/install/turtlesim/lib:/home/rss/robot_ws/install/create3_coverage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rss/robot_ws/build/create3_coverage -- -j8 -l8
+[32.965s] Invoking command in '/home/rss/robot_ws/build/create3_coverage': CMAKE_PREFIX_PATH=/home/rss/robot_ws/install/create3_examples_msgs:/home/rss/robot_ws/install/turtlesim:/home/rss/robot_ws/install/create3_lidar_slam:/home/rss/robot_ws/install/rplidar_ros:/home/rss/robot_ws/install/create3_republisher:/home/rss/robot_ws/install/create3_coverage:/home/rss/robot_ws/install/my_robot_navigation:/home/rss/robot_ws/install/webcam_bringup:/home/rss/robot_ws/install/tf_listener:/home/rss/robot_ws/install/teleop:/home/rss/robot_ws/install/robot_bringup:/home/rss/robot_ws/install/python_package:/home/rss/robot_ws/install/pubsub:/home/rss/robot_ws/install/my_robot_slam:/home/rss/robot_ws/install/create3_teleop:/home/rss/robot_ws/install/create3_examples_py:/home/rss/robot_ws/install/aruco_opencv_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/rss/robot_ws/install/create3_examples_msgs/lib:/home/rss/robot_ws/install/turtlesim/lib:/home/rss/robot_ws/install/create3_coverage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rss/robot_ws/build/create3_coverage
+[32.969s] -- Install configuration: ""
+[32.969s] -- Installing: /home/rss/robot_ws/install/create3_coverage/lib/libcreate3_coverage_core.so
+[32.981s] -- Set runtime path of "/home/rss/robot_ws/install/create3_coverage/lib/libcreate3_coverage_core.so" to ""
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/lib/create3_coverage/create3_coverage
+[32.981s] -- Set runtime path of "/home/rss/robot_ws/install/create3_coverage/lib/create3_coverage/create3_coverage" to ""
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include/
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/create3_coverage_node.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/coverage_state_machine.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/state.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors/drive-straight-behavior.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors/undock-behavior.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors/behavior.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors/dock-behavior.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors/reflex-behavior.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors/spiral-behavior.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/include//create3_coverage/behaviors/rotate-behavior.hpp
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/environment/library_path.sh
+[32.981s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/environment/library_path.dsv
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/ament_index/resource_index/package_run_dependencies/create3_coverage
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/ament_index/resource_index/parent_prefix_path/create3_coverage
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/environment/ament_prefix_path.sh
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/environment/ament_prefix_path.dsv
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/environment/path.sh
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/environment/path.dsv
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/local_setup.bash
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/local_setup.sh
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/local_setup.zsh
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/local_setup.dsv
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/package.dsv
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/ament_index/resource_index/packages/create3_coverage
+[32.982s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.983s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/cmake/ament_cmake_export_libraries-extras.cmake
+[32.983s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.983s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/cmake/create3_coverageConfig.cmake
+[32.983s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/cmake/create3_coverageConfig-version.cmake
+[32.983s] -- Installing: /home/rss/robot_ws/install/create3_coverage/share/create3_coverage/package.xml
+[32.984s] Invoked command in '/home/rss/robot_ws/build/create3_coverage' returned '0': CMAKE_PREFIX_PATH=/home/rss/robot_ws/install/create3_examples_msgs:/home/rss/robot_ws/install/turtlesim:/home/rss/robot_ws/install/create3_lidar_slam:/home/rss/robot_ws/install/rplidar_ros:/home/rss/robot_ws/install/create3_republisher:/home/rss/robot_ws/install/create3_coverage:/home/rss/robot_ws/install/my_robot_navigation:/home/rss/robot_ws/install/webcam_bringup:/home/rss/robot_ws/install/tf_listener:/home/rss/robot_ws/install/teleop:/home/rss/robot_ws/install/robot_bringup:/home/rss/robot_ws/install/python_package:/home/rss/robot_ws/install/pubsub:/home/rss/robot_ws/install/my_robot_slam:/home/rss/robot_ws/install/create3_teleop:/home/rss/robot_ws/install/create3_examples_py:/home/rss/robot_ws/install/aruco_opencv_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/rss/robot_ws/install/create3_examples_msgs/lib:/home/rss/robot_ws/install/turtlesim/lib:/home/rss/robot_ws/install/create3_coverage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rss/robot_ws/build/create3_coverage

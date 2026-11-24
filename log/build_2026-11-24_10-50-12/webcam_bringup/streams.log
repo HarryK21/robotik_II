@@ -1,0 +1,39 @@
+[1.903s] Invoking command in '/home/rss/robot_ws/src/webcam_bringup': PYTHONPATH=/home/rss/robot_ws/build/webcam_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/webcam_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam_bringup build --build-base /home/rss/robot_ws/build/webcam_bringup/build install --record /home/rss/robot_ws/build/webcam_bringup/install.log --install-scripts $base/lib/webcam_bringup --single-version-externally-managed install_data
+[2.274s] running egg_info
+[2.275s] creating ../../build/webcam_bringup/webcam_bringup.egg-info
+[2.309s] writing ../../build/webcam_bringup/webcam_bringup.egg-info/PKG-INFO
+[2.309s] writing dependency_links to ../../build/webcam_bringup/webcam_bringup.egg-info/dependency_links.txt
+[2.310s] writing requirements to ../../build/webcam_bringup/webcam_bringup.egg-info/requires.txt
+[2.310s] writing top-level names to ../../build/webcam_bringup/webcam_bringup.egg-info/top_level.txt
+[2.311s] writing manifest file '../../build/webcam_bringup/webcam_bringup.egg-info/SOURCES.txt'
+[2.356s] reading manifest file '../../build/webcam_bringup/webcam_bringup.egg-info/SOURCES.txt'
+[2.357s] writing manifest file '../../build/webcam_bringup/webcam_bringup.egg-info/SOURCES.txt'
+[2.357s] running build
+[2.357s] running build_py
+[2.358s] creating /home/rss/robot_ws/build/webcam_bringup/build
+[2.358s] creating /home/rss/robot_ws/build/webcam_bringup/build/lib
+[2.358s] creating /home/rss/robot_ws/build/webcam_bringup/build/lib/webcam_bringup
+[2.358s] copying webcam_bringup/__init__.py -> /home/rss/robot_ws/build/webcam_bringup/build/lib/webcam_bringup
+[2.358s] running install
+[2.373s] running install_lib
+[2.392s] creating /home/rss/robot_ws/install/webcam_bringup/lib/python3.10/site-packages/webcam_bringup
+[2.395s] copying /home/rss/robot_ws/build/webcam_bringup/build/lib/webcam_bringup/__init__.py -> /home/rss/robot_ws/install/webcam_bringup/lib/python3.10/site-packages/webcam_bringup
+[2.395s] byte-compiling /home/rss/robot_ws/install/webcam_bringup/lib/python3.10/site-packages/webcam_bringup/__init__.py to __init__.cpython-310.pyc
+[2.395s] running install_data
+[2.395s] creating /home/rss/robot_ws/install/webcam_bringup/share/ament_index
+[2.395s] creating /home/rss/robot_ws/install/webcam_bringup/share/ament_index/resource_index
+[2.395s] creating /home/rss/robot_ws/install/webcam_bringup/share/ament_index/resource_index/packages
+[2.395s] copying resource/webcam_bringup -> /home/rss/robot_ws/install/webcam_bringup/share/ament_index/resource_index/packages
+[2.395s] copying package.xml -> /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup
+[2.395s] creating /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup/launch
+[2.395s] copying launch/webcam.launch.yaml -> /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup/launch
+[2.395s] creating /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup/config
+[2.395s] copying config/webcam.yaml -> /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup/config
+[2.396s] copying config/camera_params.yaml -> /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup/config
+[2.396s] copying config/calibrationdata.tar.gz -> /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup/config
+[2.398s] copying config/ost.txt -> /home/rss/robot_ws/install/webcam_bringup/share/webcam_bringup/config
+[2.398s] running install_egg_info
+[2.416s] Copying ../../build/webcam_bringup/webcam_bringup.egg-info to /home/rss/robot_ws/install/webcam_bringup/lib/python3.10/site-packages/webcam_bringup-0.0.0-py3.10.egg-info
+[2.417s] running install_scripts
+[2.596s] writing list of installed files to '/home/rss/robot_ws/build/webcam_bringup/install.log'
+[2.632s] Invoked command in '/home/rss/robot_ws/src/webcam_bringup' returned '0': PYTHONPATH=/home/rss/robot_ws/build/webcam_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/webcam_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam_bringup build --build-base /home/rss/robot_ws/build/webcam_bringup/build install --record /home/rss/robot_ws/build/webcam_bringup/install.log --install-scripts $base/lib/webcam_bringup --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:46 (find_package):
+  By not providing "Findexplore_lite_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "explore_lite_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "explore_lite_msgs"
+  with any of the following names:
+
+    explore_lite_msgsConfig.cmake
+    explore_lite_msgs-config.cmake
+
+  Add the installation prefix of "explore_lite_msgs" to CMAKE_PREFIX_PATH or
+  set "explore_lite_msgs_DIR" to a directory containing one of the above
+  files.  If "explore_lite_msgs" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

@@ -1,0 +1,45 @@
+[3.473s] Invoking command in '/home/rss/robot_ws/src/python_package': PYTHONPATH=/home/rss/robot_ws/build/python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package build --build-base /home/rss/robot_ws/build/python_package/build install --record /home/rss/robot_ws/build/python_package/install.log --install-scripts $base/lib/python_package --single-version-externally-managed install_data
+[4.293s] running egg_info
+[4.293s] creating ../../build/python_package/python_package.egg-info
+[4.342s] writing ../../build/python_package/python_package.egg-info/PKG-INFO
+[4.342s] writing dependency_links to ../../build/python_package/python_package.egg-info/dependency_links.txt
+[4.347s] writing entry points to ../../build/python_package/python_package.egg-info/entry_points.txt
+[4.347s] writing requirements to ../../build/python_package/python_package.egg-info/requires.txt
+[4.347s] writing top-level names to ../../build/python_package/python_package.egg-info/top_level.txt
+[4.347s] writing manifest file '../../build/python_package/python_package.egg-info/SOURCES.txt'
+[4.424s] reading manifest file '../../build/python_package/python_package.egg-info/SOURCES.txt'
+[4.425s] writing manifest file '../../build/python_package/python_package.egg-info/SOURCES.txt'
+[4.433s] running build
+[4.433s] running build_py
+[4.433s] creating /home/rss/robot_ws/build/python_package/build
+[4.433s] creating /home/rss/robot_ws/build/python_package/build/lib
+[4.433s] creating /home/rss/robot_ws/build/python_package/build/lib/python_package
+[4.433s] copying python_package/first_node.py -> /home/rss/robot_ws/build/python_package/build/lib/python_package
+[4.433s] copying python_package/__init__.py -> /home/rss/robot_ws/build/python_package/build/lib/python_package
+[4.433s] copying python_package/param_node.py -> /home/rss/robot_ws/build/python_package/build/lib/python_package
+[4.433s] running install
+[4.446s] running install_lib
+[4.489s] creating /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package
+[4.489s] copying /home/rss/robot_ws/build/python_package/build/lib/python_package/first_node.py -> /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package
+[4.491s] copying /home/rss/robot_ws/build/python_package/build/lib/python_package/__init__.py -> /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package
+[4.491s] copying /home/rss/robot_ws/build/python_package/build/lib/python_package/param_node.py -> /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package
+[4.493s] byte-compiling /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package/first_node.py to first_node.cpython-310.pyc
+[4.496s] byte-compiling /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package/__init__.py to __init__.cpython-310.pyc
+[4.497s] byte-compiling /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package/param_node.py to param_node.cpython-310.pyc
+[4.497s] running install_data
+[4.497s] creating /home/rss/robot_ws/install/python_package/share/ament_index
+[4.497s] creating /home/rss/robot_ws/install/python_package/share/ament_index/resource_index
+[4.497s] creating /home/rss/robot_ws/install/python_package/share/ament_index/resource_index/packages
+[4.497s] copying resource/python_package -> /home/rss/robot_ws/install/python_package/share/ament_index/resource_index/packages
+[4.497s] copying package.xml -> /home/rss/robot_ws/install/python_package/share/python_package
+[4.497s] creating /home/rss/robot_ws/install/python_package/share/python_package/launch
+[4.497s] copying launch/turtle2.launch.yaml -> /home/rss/robot_ws/install/python_package/share/python_package/launch
+[4.497s] copying launch/multi_turtle.launch.yaml -> /home/rss/robot_ws/install/python_package/share/python_package/launch
+[4.497s] copying launch/turtle.launch.yaml -> /home/rss/robot_ws/install/python_package/share/python_package/launch
+[4.497s] running install_egg_info
+[4.530s] Copying ../../build/python_package/python_package.egg-info to /home/rss/robot_ws/install/python_package/lib/python3.10/site-packages/python_package-0.0.0-py3.10.egg-info
+[4.531s] running install_scripts
+[5.048s] Installing emptynode script to /home/rss/robot_ws/install/python_package/lib/python_package
+[5.049s] Installing param_node script to /home/rss/robot_ws/install/python_package/lib/python_package
+[5.049s] writing list of installed files to '/home/rss/robot_ws/build/python_package/install.log'
+[5.145s] Invoked command in '/home/rss/robot_ws/src/python_package' returned '0': PYTHONPATH=/home/rss/robot_ws/build/python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package build --build-base /home/rss/robot_ws/build/python_package/build install --record /home/rss/robot_ws/build/python_package/install.log --install-scripts $base/lib/python_package --single-version-externally-managed install_data

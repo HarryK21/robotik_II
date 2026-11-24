@@ -13,7 +13,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')),
-        (os.path.join('share', package_name, 'launch'), glob('config/*')),
+        (os.path.join('share', package_name, 'config'), glob('config/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -28,6 +28,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'random_goals_node = my_robot_navigation.random_goals:main',
         ],
     },
 )

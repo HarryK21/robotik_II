@@ -1,0 +1,50 @@
+[3.895s] Invoking command in '/home/rss/robot_ws/src/tf_listener': PYTHONPATH=/home/rss/robot_ws/build/tf_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_listener build --build-base /home/rss/robot_ws/build/tf_listener/build install --record /home/rss/robot_ws/build/tf_listener/install.log --install-scripts $base/lib/tf_listener --single-version-externally-managed install_data
+[4.630s] running egg_info
+[4.633s] creating ../../build/tf_listener/tf_listener.egg-info
+[4.681s] writing ../../build/tf_listener/tf_listener.egg-info/PKG-INFO
+[4.682s] writing dependency_links to ../../build/tf_listener/tf_listener.egg-info/dependency_links.txt
+[4.682s] writing entry points to ../../build/tf_listener/tf_listener.egg-info/entry_points.txt
+[4.683s] writing requirements to ../../build/tf_listener/tf_listener.egg-info/requires.txt
+[4.683s] writing top-level names to ../../build/tf_listener/tf_listener.egg-info/top_level.txt
+[4.683s] writing manifest file '../../build/tf_listener/tf_listener.egg-info/SOURCES.txt'
+[4.790s] reading manifest file '../../build/tf_listener/tf_listener.egg-info/SOURCES.txt'
+[4.790s] writing manifest file '../../build/tf_listener/tf_listener.egg-info/SOURCES.txt'
+[4.790s] running build
+[4.790s] running build_py
+[4.790s] creating /home/rss/robot_ws/build/tf_listener/build
+[4.790s] creating /home/rss/robot_ws/build/tf_listener/build/lib
+[4.790s] creating /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener
+[4.790s] copying tf_listener/charging_station_driver.py -> /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener
+[4.791s] copying tf_listener/__init__.py -> /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener
+[4.791s] copying tf_listener/controller.py -> /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener
+[4.791s] copying tf_listener/tf_listener.py -> /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener
+[4.791s] copying tf_listener/follower.py -> /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener
+[4.791s] running install
+[4.804s] running install_lib
+[4.854s] creating /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener
+[4.854s] copying /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener/charging_station_driver.py -> /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener
+[4.854s] copying /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener/__init__.py -> /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener
+[4.854s] copying /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener/controller.py -> /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener
+[4.854s] copying /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener/tf_listener.py -> /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener
+[4.854s] copying /home/rss/robot_ws/build/tf_listener/build/lib/tf_listener/follower.py -> /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener
+[4.855s] byte-compiling /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener/charging_station_driver.py to charging_station_driver.cpython-310.pyc
+[4.859s] byte-compiling /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener/__init__.py to __init__.cpython-310.pyc
+[4.860s] byte-compiling /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener/controller.py to controller.cpython-310.pyc
+[4.864s] byte-compiling /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener/tf_listener.py to tf_listener.cpython-310.pyc
+[4.865s] byte-compiling /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener/follower.py to follower.cpython-310.pyc
+[4.865s] running install_data
+[4.866s] creating /home/rss/robot_ws/install/tf_listener/share/ament_index
+[4.866s] creating /home/rss/robot_ws/install/tf_listener/share/ament_index/resource_index
+[4.868s] creating /home/rss/robot_ws/install/tf_listener/share/ament_index/resource_index/packages
+[4.868s] copying resource/tf_listener -> /home/rss/robot_ws/install/tf_listener/share/ament_index/resource_index/packages
+[4.868s] copying package.xml -> /home/rss/robot_ws/install/tf_listener/share/tf_listener
+[4.868s] creating /home/rss/robot_ws/install/tf_listener/share/tf_listener/launch
+[4.868s] copying launch/tf_listener.launch.py -> /home/rss/robot_ws/install/tf_listener/share/tf_listener/launch
+[4.868s] running install_egg_info
+[4.918s] Copying ../../build/tf_listener/tf_listener.egg-info to /home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener-0.0.0-py3.10.egg-info
+[4.919s] running install_scripts
+[5.122s] Installing charging_driver script to /home/rss/robot_ws/install/tf_listener/lib/tf_listener
+[5.122s] Installing follower script to /home/rss/robot_ws/install/tf_listener/lib/tf_listener
+[5.122s] Installing tf_listener script to /home/rss/robot_ws/install/tf_listener/lib/tf_listener
+[5.125s] writing list of installed files to '/home/rss/robot_ws/build/tf_listener/install.log'
+[5.162s] Invoked command in '/home/rss/robot_ws/src/tf_listener' returned '0': PYTHONPATH=/home/rss/robot_ws/build/tf_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_ws/install/tf_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_listener build --build-base /home/rss/robot_ws/build/tf_listener/build install --record /home/rss/robot_ws/build/tf_listener/install.log --install-scripts $base/lib/tf_listener --single-version-externally-managed install_data
